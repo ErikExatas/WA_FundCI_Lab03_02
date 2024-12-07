@@ -21,8 +21,8 @@ build:
       uses: docker/build-push-action@v5
       with:
         context: ./
-        push: true
-        dockerfile: ./Dockerfile   # Specify the path to your Dockerfile
+        push: true 
+        dockerfile: ../../Dockerfile   # Specify the path to your Dockerfile
         tags: erikexatas/lab03_docker:latest
 deploy:
   runs-on: ubuntu-latest
