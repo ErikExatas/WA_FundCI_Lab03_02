@@ -22,7 +22,7 @@ build:
       with:
         context: ./
         push: true 
-        dockerfile: ../../Dockerfile   
+        dockerfile: ./Dockerfile   
         tags: erikexatas/lab03_docker:latest
 deploy:
   runs-on: ubuntu-latest
